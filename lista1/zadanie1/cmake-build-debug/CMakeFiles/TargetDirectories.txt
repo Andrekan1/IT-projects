@@ -1,0 +1,3 @@
+/Users/ivan/study/IT-projects/2022/lista1/zadanie1/cmake-build-debug/CMakeFiles/zadanie1.dir
+/Users/ivan/study/IT-projects/2022/lista1/zadanie1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ivan/study/IT-projects/2022/lista1/zadanie1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
