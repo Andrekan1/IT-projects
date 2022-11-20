@@ -1,6 +1,6 @@
 #include <iostream>
-#include <math.h>
-#include <map>
+#include <cmath>
+
 using namespace std;
 
 bool isNumFirst(int n) {
@@ -14,13 +14,12 @@ bool isNumFirst(int n) {
 
 auto seekNumDist(int n) {
     int i = 1;
-    while(pow(i,2)*2 < n) {
-        int a = pow(i,2);
+    while(i*i*2 < n) {
+        int a = i*i;
         int b = n - a;
         int sqrt_b = sqrt(b);
-        if (pow(sqrt_b,2) == b) {
+        if (pow(sqrt_b,2) == b)
             return pair<int,int>(i,sqrt_b);
-        }
         i++;
     }
     return pair<int,int>(0,0);
@@ -52,11 +51,11 @@ int main() {
     int n; cin >> n;
     pair<int,int> result = seekNumDist(n);
     bool ifExists = isNumDist(n);
-    if(result.first == 0) {
+    if(result.first == 0)
         cout << "rozklad nie isnieje" << endl;
-    } else {
+    else
         cout << n << " = " << result.first << "^2 + " << result.second << "^2" << endl;
-    }
+
     cout << "teoria " << (ifExists ? "jest rozklad" : "nie ma") << endl;
     return 0;
 }

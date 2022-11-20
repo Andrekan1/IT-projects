@@ -1,8 +1,8 @@
-# Install script for directory: D:/PWR_programowanie/lista1/zadanie1
+# Install script for directory: D:/PWR_programowanie/lista1/zadanie2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/zadanie1")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/zadanie2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/PWR_programowanie/lista1/zadanie1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/PWR_programowanie/lista1/zadanie2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
